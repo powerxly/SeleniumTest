@@ -11,10 +11,12 @@ from encapsulation.unittest.SmartHTMLTestRunner import SmartHTMLTestRunner
 
 import sys
 reload(sys)
-sys.setdefaultencoding('utf-8') 
+sys.setdefaultencoding('utf-8')
+
 
 import pdb
 
+print "hahahahaha"
 # 取test_case文件夹下所有用例文件
 def creatsuitel(lists):
     testunit = unittest.TestSuite()
