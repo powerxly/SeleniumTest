@@ -17,7 +17,7 @@ class Case_02(unittest.TestCase):
         '''集团公文-部门通知 20171226
         '''
         uihandle = oa_init()
-        
+        docTitle = ""
         docTitle = "集团公文-部门通知（自动测试）%s" % time.strftime('%Y%m%d%H%M%S',time.localtime(time.time()))
         #docTitle='[政企分公司]部门通知（自动测试）20171024175713'
         oa_try(self,uihandle,docTitle,resume=0,flow='集团公文-部门通知',retry=5)
